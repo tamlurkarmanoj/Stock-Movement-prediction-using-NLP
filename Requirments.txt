@@ -1,0 +1,12 @@
+yfinance
+pandas
+numpy
+tensorflow
+scikit-learn
+plotly
+matplotlib
+textblob
+networkx
+tabulate
+pyvis
+mplcursors
