@@ -42,3 +42,20 @@ This project predicts the future stock prices of Nestle India (NESTLEIND.NS) usi
     ```
 
 ## `requirements.txt`
+
+## Usage
+
+1.  Open the `Final_code.ipynb` file in Jupyter Notebook or JupyterLab.
+2.  Run the cells sequentially to see the data fetching, model training, prediction, and visualization process.
+
+## Project Structure
+
+The Jupyter Notebook is divided into the following sections:
+
+1.  **Data Fetching:** Fetches historical stock data and news for Nestle India.
+2.  **GRU Model Prediction:** A GRU model is trained on the stock's closing prices to predict future trends.
+3.  **LSTM Model Prediction:** An LSTM model is also trained for comparison.
+4.  **Sentiment Analysis and Event Detection:** News headlines are analyzed to determine sentiment (bullish, bearish, or neutral).
+5.  **Knowledge Graph Representation:** A graph is created to visualize the sentiment and relationships in the news data.
+6.  **Integrated Model:** A model that combines time-series data with sentiment information for improved predictions.
+7.  **Performance Comparison:** A comparison of the predictions from the different models.
